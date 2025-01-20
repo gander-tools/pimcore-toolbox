@@ -1,0 +1,31 @@
+{
+    "name": "gander-tools/pimcore-toolbox",
+    "description": "Pimcore Toolbox",
+    "type": "pimcore-bundle",
+    "require": {
+        "pimcore/pimcore": "^11.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "GanderTools\\PimcoreToolbox\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Adam Gąsowski"
+        }
+    ],
+    "extra": {
+        "branch-alias": {
+            "master": "1.0.x-dev"
+        },
+        "pimcore": {
+            "bundles": [
+                "GanderTools\\PimcoreToolbox"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
