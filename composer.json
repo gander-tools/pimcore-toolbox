@@ -22,7 +22,7 @@
         },
         "pimcore": {
             "bundles": [
-                "GanderTools\\PimcoreToolbox"
+                "GanderTools\\PimcoreToolbox\\PimcoreToolboxBundle"
             ]
         }
     },
