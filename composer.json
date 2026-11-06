@@ -3,7 +3,7 @@
     "description": "Pimcore Toolbox",
     "type": "pimcore-bundle",
     "require": {
-        "pimcore/pimcore": "^12.1.5"
+        "pimcore/pimcore": "^12.3.12"
     },
     "license": "MIT",
     "autoload": {
